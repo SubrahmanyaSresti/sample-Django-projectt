@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter your details</title>
+
+</head>
+<body>
+    <h1><center> User details </center> </h1>
+    <form method= "post">
+        {% csrf_token %}
+        <br><center>name<input type="text" name="name"> </center></br> 
+        <br><center>Username<input type="text" name="uname"> </center></br> 
+        <br><center>email<input type="text" name="email"> </center></br> 
+        <br><center>age<input type="text" name="age"> </center></br> 
+        <br><center><input type="submit" name="name"> </center></br> 
+
+    </form>
+    
+</body>
+</html>
